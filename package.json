@@ -1,8 +1,11 @@
 {
-  "name": "naruto-online",
+  "name": "naruto-io",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.19.2", "ws": "^8.17.0" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
   "engines": { "node": ">=18" }
 }
